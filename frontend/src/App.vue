@@ -1,15 +1,21 @@
 <template>
     <core />
+    <!-- <placeholder></placeholder> -->
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
 import Core from "./components/Core.vue";
+import Placeholder from "./components/Placeholder.vue";
 
 export default defineComponent({
     name: "App",
     components: {
         Core,
+        // Placeholder,
+    },
+    mounted() {
+        document.title = "Void Breedshop";
     },
 });
 </script>

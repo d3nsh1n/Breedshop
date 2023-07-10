@@ -9,7 +9,9 @@
     },
     "dependencies": {
         "core-js": "^3.8.3",
-        "vue": "^3.2.13"
+        "ky": "^0.33.3",
+        "vue": "^3.2.13",
+        "vuetify": "^3.2.5"
     },
     "devDependencies": {
         "@typescript-eslint/eslint-plugin": "^5.4.0",
